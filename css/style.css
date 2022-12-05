@@ -8,7 +8,8 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
-.container{
+
+.container {
   display: grid;
   grid-template-columns: 25% 75%;
 }
@@ -24,4 +25,48 @@ h6 {
 
 p {
   margin: 0;
+}
+
+.secondRowContainer,
+.thirdRowContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2rem;
+}
+
+.surfContainer {
+  background-image: url("../images/02-portfolio-1.jpg");
+  background-size: cover;
+  height: 40vh;
+  position: relative;
+}
+
+.surfContainer div {
+  position: absolute;
+  bottom: 20%;
+  background-color: aquamarine;
+}
+
+.ledContainer {
+  background-image: url("../images/02-portfolio-2.jpg");
+  height: 25vh;
+  background-size: cover;
+}
+
+.calContainer {
+  background-image: url("../images/02-portfolio-3.jpg");
+  height: 25vh;
+  background-size: cover;
+}
+
+.puzzleContainer {
+  background-image: url("../images/02-portfolio-4.jpg");
+  height: 25vh;
+  background-size: cover;
+}
+
+.runContainer {
+  background-image: url("../images/02-run-buddy.jpg");
+  height: 25vh;
+  background-size: cover;
 }
